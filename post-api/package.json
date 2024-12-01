@@ -6,7 +6,7 @@
   "author": "Marcos Demetrio <demetrius.marcos@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node-dev src/main.ts"
+    "dev": "ts-node-dev --require ./src/instrumentation.ts src/main.ts"
   },
   "devDependencies": {
     "@types/express": "^5.0.0",
@@ -16,6 +16,9 @@
     "typescript": "^5.7.2"
   },
   "dependencies": {
+    "@opentelemetry/api": "^1.9.0",
+    "@opentelemetry/instrumentation-http": "^0.55.0",
+    "@opentelemetry/sdk-node": "^0.55.0",
     "axios": "^1.7.8",
     "express": "^4.21.1"
   }

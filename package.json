@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-otel",
+  "version": "0.0.1",
+  "main": "main.ts",
+  "repository": "https://github.com/omarcosdn/nodejs-otel.git",
+  "author": "Marcos Demetrio <demetrius.marcos@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev src/main.ts"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}

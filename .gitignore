@@ -1,3 +1,4 @@
+observability/data/*
 # Logs
 logs
 *.log
